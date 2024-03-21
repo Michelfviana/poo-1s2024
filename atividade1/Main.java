@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Subtrair: " + calc.subtrair());
         System.out.println("multiplicar: " + calc.multiplicar());
         System.out.println("dividir: " + calc.dividir());
-        System.out.println(": " + calc.dividir());
+        System.out.printf("Dividir: %.2f\n", calc.dividir());
         System.out.println("número primo:" + calc.verificarNumeroPrimo(0)); //false
         System.out.println("número primo:" + calc.verificarNumeroPrimo(1)); //false
         System.out.println("número primo:" + calc.verificarNumeroPrimo(2)); //true
