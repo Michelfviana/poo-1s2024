@@ -50,6 +50,11 @@ public class Sistema {
                     break;
                 case 3:
                     System.out.println("Detalhar livro\n");
+                    int id;
+                    System.out.println("Id: ");
+                    id = sc.nextInt();
+                    sc.nextLine();
+                    System.out.println(livraria.detalharLivroPorId(id));
                     break;
                 case 4:
                     System.out.println("Encerrando o sistema\n");
@@ -60,5 +65,9 @@ public class Sistema {
             }
 
         }
+        sc.close();
     }
+
 }
+
+public static criarLivro()
